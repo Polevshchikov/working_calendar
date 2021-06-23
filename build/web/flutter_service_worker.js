@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "f1921eb48babbf32d8aa7794e2e23d0c",
-"index.html": "ab43c980e76ba4155f4beac391e7ea49",
-"/": "ab43c980e76ba4155f4beac391e7ea49",
+"index.html": "0a86eb239d58d4416ddcb90d615804b8",
+"/": "0a86eb239d58d4416ddcb90d615804b8",
 "main.dart.js": "d01a69ad3f24d1a4600d628b4165602b",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -25,10 +25,10 @@ const RESOURCES = {
 "assets/assets/files/calendar_2019.json": "4c61ab6113e66056f523280812646baf",
 "assets/assets/files/calendar_2023.json": "83f48e2498cacedb609d434cafd9173c",
 "assets/assets/files/calendar_2024.json": "22c246abcf7d17fd0bd07fd70677fa81",
-"assets/assets/files/calendar_2020.json": "8b6fd39f423362b1277125f40b2e37cf",
+"assets/assets/files/calendar_2020.json": "76ed64641ad550a5ab9c90be3dca0327",
 "assets/assets/files/calendar_2016.json": "dac295b0ed72605c60a73d4813b0371f",
 "assets/assets/files/calendar_2017.json": "16dbcae12398ba96e5c19f98fde99dab",
-"assets/assets/files/calendar_2021.json": "9e9841583919077c2615e6d607f9c753"
+"assets/assets/files/calendar_2021.json": "8a09ede890bbc3fa9142b67c146def74"
 };
 
 // The application shell files that are downloaded before a service worker can
