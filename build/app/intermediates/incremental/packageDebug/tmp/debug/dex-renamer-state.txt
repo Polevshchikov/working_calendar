@@ -1,0 +1,4 @@
+#Sun Jun 20 14:41:59 OMST 2021
+base.0=/Users/pol/Projects/MyProjectors/homework_flutter/working_calendar/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

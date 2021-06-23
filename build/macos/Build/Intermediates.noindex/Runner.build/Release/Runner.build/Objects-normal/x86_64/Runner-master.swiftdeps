@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "60b11d98db095cc9e709f2347b626f66"
+build_time: [1624030059, 198731000]
+inputs:
+  "/Users/pol/Projects/MyProjectors/homework_flutter/working_calendar/macos/Runner/MainFlutterWindow.swift": [9223372036, 854775807]
+  "/Users/pol/Projects/MyProjectors/homework_flutter/working_calendar/macos/Runner/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/pol/Projects/MyProjectors/homework_flutter/working_calendar/macos/Flutter/GeneratedPluginRegistrant.swift": [9223372036, 854775807]
