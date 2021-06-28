@@ -147,8 +147,8 @@ class StartPage extends StatelessWidget {
 /// Пробный период
 bool trialPeriod() {
   DateTime treal = sl.get<Services>().dateTime;
-  if ((treal.year == 2021 && treal.day >= 25 && treal.month >= 6) ||
-      (treal.year <= 2021 && treal.day <= 17 && treal.month <= 6)) {
+  if ((treal.year == 2021 && treal.day >= 5 && treal.month >= 7) ||
+      (treal.year <= 2021 && treal.day <= 27 && treal.month <= 6)) {
     return false;
   } else {
     return true;
