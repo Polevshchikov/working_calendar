@@ -8,20 +8,10 @@ import 'package:flutter/services.dart' show rootBundle;
 
 class DateProvider {
   Future<DateEntity> loadJsonDate({required int queryYear}) async {
-    if (queryYear >= 2015 && queryYear <= 2024) {
-      final String date =
-          await rootBundle.loadString("assets/files/calendar_$queryYear.json");
-      final DateEntity dateEntity =
-          DateEntity.fromJson(await json.decode(date));
-      return dateEntity;
-    } else {
-      return DateEntity(
-        year: 0,
-        months: <Months>[
-          Months(month: 0, days: [0])
-        ],
-      );
-    }
+    final String date =
+        await rootBundle.loadString("assets/files/calendar_$queryYear.json");
+    final DateEntity dateEntity = DateEntity.fromJson(await json.decode(date));
+    return dateEntity;
   }
 
   Future<DateEntity> getDate(int queryYear) async {
